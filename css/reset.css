@@ -1,6 +1,7 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
 	margin: 0;
-	padding: 0
+	padding: 0;
+	overflow-x:hidden;
 }
 
 table {
@@ -63,14 +64,14 @@ legend {
 
 /*环中移民，热报*/
 /* 移民头条/移民热点 */
-.topNew{ width:100%; height:440px; background:#fff; position:relative;left:50px;}
+.topNew{ width:100%; height:440px; background:#fff; position:relative;left:20px;}
 .topNew_nr{width:100%; height:410px; margin:0 auto;}
 .topNew_kong{ width:100%; height:35px}
 /**/
 .topNew_ym{width:100%;position:absolute;height:350px; float:left}
 .topNew_ym_pic{width:189px;height:115px; float:left; margin:0px 10px 10px 0px;}
 .topNew_ym_pic img{width:189px;height:115px;}
-.topNew_ym_nr{height:115px;  font-size:13px; line-height:24px; color:#666}
+.topNew_ym_nr{height:350px;  font-size:13px; line-height:24px; color:#666;display:inline;}
 .topNew_ym_nr span{ font-size:14px; font-weight:bold; line-height:30px}
 .topNew_ym_nr a{color:#d60000}
 .topNew_ym_li{width:100%;height:150px; float:left; margin-top:20px; line-height:28px; font-size:13px; font-weight:100}
@@ -81,7 +82,7 @@ legend {
 .slideBox dt span{color:#333;cursor:pointer;float:left;font-size:20px;height:42px;line-height:42px;text-align:center;width:50%; border-bottom:3px solid #B0B0B0;} 
 .slideBox dt .on{font-weight:bold;border-bottom:3px solid #0280d7;color:#0280d7}
 .slideBox a:hover{color:#0280d7;}
-.slideBox dd{position:relative;width:100%;height:350px;clear:both;display:none; padding-top:20px}
+.slideBox dd{position:relative;width:100%;height:285px;clear:both;display:none; padding-top:20px}
 
 .slideBox1{width:60%; height:350px;}
 .slideBox1 dt{ width:1000px; margin-left:260px}
